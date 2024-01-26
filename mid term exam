@@ -1,0 +1,26 @@
+def recommended_crop(season,temperature,rainfall,soil_type)
+    if season == "summer"
+    if temperature >30 and rainfall>400:
+      print "rice"
+    elif temperature>35 and soil_type=="sandy"
+      print "cotton"
+    elif 25< = temperature<=30:
+      print "bajra"
+    else:
+      print("not suitable") 
+
+     elif season =="winter"
+       if 25<= temperature <=30:
+        print"bajra"
+     else:
+        print ("not suitable"*) 
+     else:
+        print("invalid season")
+
+
+     season = input("enter the season")
+     temp = int(inpu("enter a temp")
+     rainfall = input("enter a rainfall)
+     soil_type = ("enter a soil type")
+
+recommended_crop(season,temperature,rainfall,soil_type)
