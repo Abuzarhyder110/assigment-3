@@ -1,0 +1,19 @@
+from datetime import datetime 
+preferred_airline = [
+   {"Airline": "Garuda Indonessia", "price":3000, "Date": "1\11\24"},
+   {"Airline": "Singapore Airlines", "price": 2000, "Date": "1\14\24"},
+   {"Airline": "PIA", "price":2000, "Date": 1\17\24"},
+   {"Airline": "Air India", "price": 3200, "Date": "1\10\14"},
+   {"Airline": "Alaska Air", "price": 1400, "Date": "1\20\24"},
+   {"Airline": "Air Arabia", "price": 1000, "Date": "2\2\24"},
+   {"Airline": "Indigo", "price": 1900, "Date": 1\10\24"}
+]
+
+def flight(destination, flrxibility_days, budget, preferred_airlines):
+    selected_flights = None
+    for airline in preferred_airlines:
+        if airline["Airline"].lower() in ["garuda indonessia", "singapore airlines", "pia", "air india", "alaska air", "air arabia", "indigo"]:
+           if airline["price"] <= budget:
+               airline_date = datetime.strptime(airline["Date"], "%m%d%y")
+               start_date, end_date = [datetime.strptime(date, "%m%d%y" for date in flexibllity_days,split(" to ")]
+               
